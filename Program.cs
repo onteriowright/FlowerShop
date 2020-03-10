@@ -61,13 +61,12 @@ namespace FlowerShop
             //     Thorny = false,
             //     Fragrant = "Fresh"
             // };
+
+            Rose redRose = new Rose();
+            SunFlower sunFlower = new SunFlower();
+            Irises irises = new Irises();
+            Tulip tulip = new Tulip();
+            SnapDragon snapDragon = new SnapDragon();
         }
-
-        Rose redRose = new Rose();
-        SunFlower sunFlower = new SunFlower();
-        Irises irises = new Irises();
-        Tulip tulip = new Tulip();
-        SnapDragon snapDragon = new SnapDragon();
-
     }
 }
