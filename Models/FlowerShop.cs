@@ -17,6 +17,7 @@ namespace FlowerShop
       MothersDayFlowers.Add(new Tulip());
       MothersDayFlowers.Add(new Tulip());
       MothersDayFlowers.Add(new Tulip());
+
       return MothersDayFlowers;
     }
     public List<IBirthdayFlowers> IBirthdayMakeBirthdayArrangement()
@@ -27,12 +28,14 @@ namespace FlowerShop
       BirthdayFlowers.Add(new Irises());
       BirthdayFlowers.Add(new Irises());
       BirthdayFlowers.Add(new Irises());
+
       return BirthdayFlowers;
     }
     public List<IGetWell> IGetWellArrangement()
     {
       List<IGetWell> GetWellFlowers = new List<IGetWell>();
       GetWellFlowers.Add(new SnapDragon());
+
       return GetWellFlowers;
     }
   }
